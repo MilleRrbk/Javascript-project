@@ -21,23 +21,18 @@ time, mark, audio, video {
 
 * {
     background-color: rgb(56, 62, 117);
+    
 }
 .container {
     display: grid;
-    grid-template-rows: 300px 380px 36px 36px 36px 36px 36px 36px 36px 36px;
+    grid-template-rows: 250px 380px 40px 40px 40px 40px 40px 40px 40px ;
     grid-template-columns: 30% 40% 30%; 
+   
 }
-.item-1 {
-    grid-row-start: 1;
-    grid-row-end: 11;
-    grid-column-start: 1;
-    grid-column-end: 23;
-}
-.item-2 { /*hund gif*/
+.item-1 { /*hund gif*/
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     justify-self: center;
-
 }
 .image-overlay {
     position: absolute;
@@ -65,7 +60,7 @@ time, mark, audio, video {
     text-align: center;
     padding: 10px;
     margin: 30px;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 6px 2px 5px rgb(34, 31, 47); 
 }
@@ -78,11 +73,12 @@ time, mark, audio, video {
     font-size: 16px; 
     font-weight: bold; 
     width: 300px;
+    height: 30px;
+    align-self: center;
     z-index: 1;
     justify-self: center;
     grid-column: 1 / 2;
-    grid-row: 3 /4;
-    
+    grid-row: 3 /4; 
 }
 #button2 { /*natsværmer*/
     background-color: #5fbaff; 
@@ -93,6 +89,8 @@ time, mark, audio, video {
     font-size: 16px; 
     font-weight: bold; 
     width: 300px;
+    height: 30px;
+    align-self: center;
     z-index: 1;
     justify-self: center;
     grid-column: 2 / 3;
@@ -107,10 +105,13 @@ time, mark, audio, video {
     font-size: 16px; 
     font-weight: bold; 
     width: 300px;
+    height: 30px;
+    align-self: center;
     z-index: 1;
     justify-self: center;
-    grid-column: 3 / 4;
-    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+    
 }
 #button4 { /*ananas*/
     background-color: #5fbaff; 
@@ -120,6 +121,8 @@ time, mark, audio, video {
     border-radius: 5px; 
     font-size: 16px; 
     font-weight: bold; 
+    height: 30px;
+    align-self: center;
     width: 300px;
     z-index: 1;
     justify-self: center;
@@ -134,9 +137,59 @@ time, mark, audio, video {
     border-radius: 5px; 
     font-size: 16px; 
     font-weight: bold; 
+    height: 30px;
+    align-self: center;
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+#button6 { /*chokolade*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    height: 30px;
+    align-self: center;
     width: 300px;
     z-index: 1;
     justify-self: center;
     grid-column: 1 / 2;
     grid-row: 6 / 7;
+}
+#button7 { /*vindruer*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    height: 30px;
+    align-self: center;
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+#button8 { /*avocado*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    height: 30px;
+    align-self: center;
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
 }
