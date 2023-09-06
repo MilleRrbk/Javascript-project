@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(39, 44, 92);
+    background-color: rgb(56, 62, 117);
 }
 
 .container {
@@ -49,8 +49,8 @@
     border-style: solid;
 }*/
 
-#box {
+#button1 {
     width: 200px;
     height: 200px;
-    background-color: blue;
+    background-color: rgb(206, 206, 237);
 }
