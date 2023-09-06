@@ -1,47 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 * {
     background-color: rgb(56, 62, 117);
 }
-
 .container {
     display: grid;
-    /*grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-auto-rows: 100px;
-    grid-auto-flow: row;
-    grid-auto-columns: 100px;*/
-    grid-template-columns: 30% 40% 30%;
-    
+    grid-template-rows: 300px 380px 36px 36px 36px 36px 36px 36px 36px 36px;
+    grid-template-columns: 30% 40% 30%; 
 }
-
 .item-1 {
     grid-row-start: 1;
     grid-row-end: 11;
     grid-column-start: 1;
     grid-column-end: 23;
 }
-
-.item-2 { /*hund billede*/
+.item-2 { /*hund gif*/
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     justify-self: center;
-}
 
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(30, 34, 78));
+}
 .item-3 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-  
+}
+.item-3 h1 {
+    color: rgb(254, 254, 254);
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 2px 5px rgb(34, 31, 47); 
 }
 .item-3 p {
     color: rgb(254, 254, 254);
     text-align: center;
     padding: 10px;
-    margin: 50px;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 2px 5px rgb(34, 31, 47); 
 }
-
-#button1 {
-    width: 200px;
-    height: 50px;
-    background-color: rgb(206, 206, 237);
+#button1 { /*sød kartoffel*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 1 / 2;
+    grid-row: 3 /4;
+    
+}
+#button2 { /*natsværmer*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 2 / 3;
+    grid-row: 3 /4;
+}
+#button3 { /*kål*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+#button4 { /*ananas*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+#button5 { /*honning*/
+    background-color: #5fbaff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    width: 300px;
+    z-index: 1;
+    justify-self: center;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
 }
