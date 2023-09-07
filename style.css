@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 * {
-    background-color: rgb(56, 62, 117);
+    background-color: rgb(29, 30, 48);
     
 }
 .container {
@@ -40,7 +40,7 @@ time, mark, audio, video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(30, 34, 78));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(34, 38, 83));
 }
 .item-3 {
     grid-column: 2 / 3;
@@ -69,9 +69,10 @@ time, mark, audio, video {
 .buttons {
     font-style: bold;
     text-align: center;
-    background-color: #5fbaff; 
-    color: #fff; 
-    border: none; 
+    background-color: #3497e3; 
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.181);
+    text-shadow: 1px;
+    color: #ffffff; 
     border-radius: 5px; 
     font-size: 16px; 
     font-weight: bold; 
@@ -128,4 +129,28 @@ time, mark, audio, video {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
     justify-self: end;
+}
+
+.dogPoop {
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.dogpoopgrid {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.dogSmile {
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.dogsmilegrid {
+    grid-column: 1/ 2;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
 }
