@@ -63,11 +63,14 @@ time, mark, audio, video {
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 6px 2px 5px rgb(34, 31, 47); 
+
 }
-#button1 { /*sød kartoffel*/
+
+.buttons {
+    font-style: bold;
+    text-align: center;
     background-color: #5fbaff; 
     color: #fff; 
-    padding: 10px 20px; 
     border: none; 
     border-radius: 5px; 
     font-size: 16px; 
@@ -77,119 +80,52 @@ time, mark, audio, video {
     align-self: center;
     z-index: 1;
     justify-self: center;
+}
+
+#button1 { /*sød kartoffel*/
     grid-column: 1 / 2;
     grid-row: 3 /4; 
+    justify-self: end;
 }
 #button2 { /*natsværmer*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    width: 300px;
-    height: 30px;
-    align-self: center;
-    z-index: 1;
-    justify-self: center;
     grid-column: 2 / 3;
     grid-row: 3 /4;
 }
 #button3 { /*kål*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    width: 300px;
-    height: 30px;
-    align-self: center;
-    z-index: 1;
-    justify-self: center;
     grid-column: 2 / 3;
     grid-row: 8 / 9;
-    
 }
 #button4 { /*ananas*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    height: 30px;
-    align-self: center;
-    width: 300px;
-    z-index: 1;
-    justify-self: center;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
+    justify-self: start;
 }
 #button5 { /*honning*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    height: 30px;
-    align-self: center;
-    width: 300px;
-    z-index: 1;
-    justify-self: center;
     grid-column: 1 / 2;
-    grid-row: 7 / 8;
+    grid-row: 9 / 10;
+    justify-self: end;
 }
 #button6 { /*chokolade*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    height: 30px;
-    align-self: center;
-    width: 300px;
-    z-index: 1;
-    justify-self: center;
     grid-column: 1 / 2;
     grid-row: 6 / 7;
 }
 #button7 { /*vindruer*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    height: 30px;
-    align-self: center;
-    width: 300px;
-    z-index: 1;
-    justify-self: center;
     grid-column: 3 / 4;
     grid-row: 4 / 5;
+    justify-self: start;
 }
 #button8 { /*avocado*/
-    background-color: #5fbaff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    height: 30px;
-    align-self: center;
-    width: 300px;
-    z-index: 1;
-    justify-self: center;
     grid-column: 3 / 4;
     grid-row: 8 / 9;
+}
+
+#button9 { /*puppuccino*/
+    grid-column: 3 / 4;
+    grid-row: 10 / 11;
+    justify-self: start;
+}
+#button10 { /*flødeboller*/
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    justify-self: end;
 }
