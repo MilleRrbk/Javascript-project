@@ -137,35 +137,3 @@ function clickHandler10(evt) {
     hundPåTønden.style.opacity = '0';
   }, 2000);
 }
-
-
-
-
-
-
-
-
-// document.getElementById('button1') = true
-
-// console.log(sødKartoffel)
-
-
-
-
-// const buttonsAll = document.querySelectorAll('.buttons');
-//   console.log(buttonsAll)
-
-// const correctAnswers = ['#button1', '#button2']
-
-// if(correctAnswers === true) {
-//   sødKartoffel.addEventListener('click', clickHandler);
-
-//   function clickHandler(evt) {
-//   console.log(evt.target);
-//   evt.target.style.backgroundColor = 'rgb(120, 200, 40)'
-// }
-
-// }
-
-
-// document.querySelectorAll('.buttons'),
